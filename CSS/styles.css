@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,400;1,500&display=swap');
+
+* { padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+
+header {
+    padding: 50px 200px;
+}
+
+#logo {
+    margin-right: 60%;
+    /* background-color: red; */
+}
+
+#nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: #49716A;
+}
+
+.banner-contenedor h1 {
+    font-family: 'Poppins', sans-serif;
+    padding: 200px;
+    font-size: 75px;
+    color: #49716A;
+    background-image:url(/images/cinta-full.png);
+}
+
+.banner-contenedor {
+    display: flex;
+    background-color: #D3F5EF;
+    
+}
+
+#ideas {
+    justify-content: end;
+    height: 600px;
+    width: auto;
+    margin: 100px;
+}
